@@ -9,6 +9,7 @@ export default function Task({ task }) {
         type="checkbox"
         className={css.checkbox}
         checked={task.completed}
+        readOnly
       />
       <p className={css.text}>{task.text}</p>
       <button className={css.btn}>
