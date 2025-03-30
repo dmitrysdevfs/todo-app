@@ -1,0 +1,8 @@
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.listItem+.listItem {
+  border-top: 1px solid #242437;
+}
